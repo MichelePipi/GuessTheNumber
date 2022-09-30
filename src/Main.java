@@ -2,9 +2,9 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-    private int secretNumber = (int) Math.round(Math.random() * 500);
-    private int guesses = 0;
-    private int guess;
+    private static int secretNumber = (int) Math.round(Math.random() * 500);
+    private static int guesses = 0;
+    private static int guess;
     private static final Scanner s = new Scanner(System.in);
     private static final Random rand = new Random();
 
